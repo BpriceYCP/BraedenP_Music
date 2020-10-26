@@ -87,9 +87,54 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* keeps the site from scrolling from left to right */
 
+body{
+  overflow-x: hidden;
+}
 
+/* Basic styling for navigation bar */
 
+nav{
+  width: 100vw;
+  margin: 0px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0px 20px 0px 20px;
+}
+
+nav ul li a{
+  color: #FF0000;
+  text-decoration: none;
+}
+
+/* setting up hero section on homepage */
+
+.hero_home{
+  width: 100vw;
+  height: 530px;
+  /* put in image name after ../img/ */
+  background-image: url('../img/');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
 
    
 
