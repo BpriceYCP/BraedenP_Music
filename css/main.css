@@ -91,18 +91,18 @@ textarea {
 
 body{
   overflow-x: hidden;
+  background-color: #000000;
 }
 
 /* Basic styling for navigation bar */
 
 nav{
-  width: 100vw;
-  margin: 0px;
   height: 120px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin: 0px 2% 0px 2%;
 }
 
 nav ul{
@@ -123,17 +123,44 @@ nav ul li a{
   text-decoration: none;
 }
 
+nav ul li a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav h1{
+  color: #FF0000;
+  font-size: 30px;
+  margin: 0px;
+}
+
 /* setting up hero section on homepage */
 
 .hero_home{
   width: 100vw;
   height: 530px;
-  /* put in image name after ../img/ */
-  background-image: url('../img/');
+  background-image: url('../img/hero.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
+}
+
+/* Footer Styles */
+
+footer{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #0D0D0D;
+}
+
+footer h1{
+  color: #FF0000;
+  font-size: 30px;
 }
 
    
