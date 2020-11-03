@@ -10,6 +10,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
 
 html {
   color: #222;
@@ -146,6 +152,49 @@ nav h1{
   margin: 0px;
 }
 
+.hero_about{
+  width: 100vw;
+  height: 530px;
+  background-image: url('../img/Abour_hero');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.hero_tour{
+  width: 100vw;
+  height: 530px;
+  background-image: url('../img/tour_background');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.about_content{
+left: 100px;
+}
+
+
+.tour_right{
+  position: absolute;
+
+}
+.tour_left{
+
+}
+.img_about{
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  background-image: url('../img/tour_background');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
 /* Footer Styles */
 
 footer{
@@ -163,7 +212,7 @@ footer h1{
   font-size: 30px;
 }
 
-   
+
 
 /* ==========================================================================
    Helper classes
@@ -338,4 +387,3 @@ footer h1{
     page-break-after: avoid;
   }
 }
-
