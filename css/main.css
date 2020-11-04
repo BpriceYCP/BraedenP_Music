@@ -176,14 +176,26 @@ nav h1{
 left: 100px;
 }
 
-
-.tour_right{
-  position: absolute;
-
+.maincontent{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
 }
+
+
+.tour_right,
 .tour_left{
-
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
+
 .img_about{
   border-radius: 4px;
   padding: 5px;
