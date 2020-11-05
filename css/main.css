@@ -138,6 +138,14 @@ nav h1{
   color: #FF0000;
   font-size: 30px;
   margin: 0px;
+  text-align: center;
+}
+
+nav h1 span{
+  color: #FF0000;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
 }
 
 /* setting up hero section on homepage */
@@ -153,7 +161,7 @@ nav h1{
 }
 
 .hero_about{
-  width: 100vw;
+  width: 50vw;
   height: 530px;
   background-image: url('../img/Abour_hero');
   background-position: center;
@@ -162,6 +170,23 @@ nav h1{
   margin: 0px;
 }
 
+
+/*setting up HOME page*/
+.new_releases{
+
+}
+
+/*setting up Tour page*/
+
+.tour_background{
+  background-image: url(';../img/tour_background')
+}
+.tour_right{
+  position: absolute;
+}
+.tour_left{
+  position: relative;
+}
 .hero_tour{
   width: 100vw;
   height: 530px;
@@ -171,40 +196,25 @@ nav h1{
   background-repeat: no-repeat;
   margin: 0px;
 }
-
+/*setting up ABOUT page*/
 .about_content{
-left: 100px;
-}
-
-.maincontent{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 0 auto;
-}
-
-
-.tour_right,
-.tour_left{
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
+  left: 100px;
+  width: 720px;
+  padding: 50px;
+  margin: 20px;
 }
 
 .img_about{
+  right: 100px;
   border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  padding: 10px;
+  width: 300px;
   background-image: url('../img/tour_background');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0px;
+}
+
+/*setting up MUSIC page*/
+.new_releases{
+
 }
 
 /* Footer Styles */
