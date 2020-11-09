@@ -10,17 +10,22 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;400&display=swap');
+
 h1{
   text-align: center;
+  color: #fff;
 }
 h2{
   text-align: center;
+  color: #fff;
 }
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Advent Pro', sans-serif;
 }
 
 /*
@@ -93,7 +98,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* keeps the site from scrolling from left to right */
+   @font-face {
+    font-family: 'dalek_pinpointbold';
+    src: url('../font/dalekpinpointbold-lr3e-webfont.woff2') format('woff2'),
+         url('../font/dalekpinpointbold-lr3e-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body{
   overflow-x: hidden;
@@ -139,6 +151,8 @@ nav h1{
   font-size: 30px;
   margin: 0px;
   text-align: center;
+  position: relative;
+  left: 43%;
 }
 
 nav h1 span{
@@ -146,6 +160,7 @@ nav h1 span{
   font-size: 30px;
   margin: 0px;
   text-align: center;
+  font-family: 'dalek_pinpointbold';
 }
 
 /* setting up hero section on homepage */
@@ -161,9 +176,9 @@ nav h1 span{
 }
 
 .hero_about{
-  width: 50vw;
+  width: 100vw;
   height: 530px;
-  background-image: url('../img/Abour_hero');
+  background-image: url('../img/Abour_Hero.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,14 +194,31 @@ nav h1 span{
 /*setting up Tour page*/
 
 .tour_background{
-  background-image: url(';../img/tour_background')
+  background-image: url('../img/Tour_Background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
+
+.tour_info{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.tour_left,
 .tour_right{
-  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 45%;
+  flex-direction: column;
+  margin: 5%;
+  font-size: 20px;
+  color: #fff;
 }
-.tour_left{
-  position: relative;
-}
+
 .hero_tour{
   width: 100vw;
   height: 530px;
@@ -197,24 +229,76 @@ nav h1 span{
   margin: 0px;
 }
 /*setting up ABOUT page*/
+
+.About{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  background-color: #fff;
+}
+
 .about_content{
-  left: 100px;
-  width: 720px;
-  padding: 50px;
-  margin: 20px;
+  width: 50%;
+  margin: 2%;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #CABCBC;
+  padding: 2%;
+  font-size: 20px;
 }
 
 .img_about{
-  right: 100px;
-  border-radius: 4px;
-  padding: 10px;
+  width: 50%;
+  margin: 2%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img_about img{
   width: 300px;
-  background-image: url('../img/tour_background');
+  margin: 2%;
 }
 
 /*setting up MUSIC page*/
-.new_releases{
 
+.music_videos,
+.new_releases{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.new_releases_images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.new_releases_images img{
+  width: 25%;
+  margin: 2%;
+}
+
+.horizontal{
+  display: flex;
+  flex-direction: row;
+}
+
+.videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
 }
 
 /* Footer Styles */
