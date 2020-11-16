@@ -186,11 +186,6 @@ nav h1 span{
 }
 
 
-/*setting up HOME page*/
-.new_releases{
-
-}
-
 /*setting up Tour page*/
 
 .tour_background{
@@ -293,12 +288,39 @@ nav h1 span{
   flex-direction: row;
 }
 
+.horizontal img{
+  margin: 2%;
+}
+
 .videos{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   flex-direction: column;
+}
+
+#img1{
+  border: 30px ;
+  box-shadow: -30px -30px #A8A4A4;
+  padding: 10px;
+}
+
+#img2{
+  border: 30px;
+  box-shadow: -30px 30px #555555;
+  padding: 10px;
+}
+
+#img3{
+  border: 30px;
+  box-shadow: -30px -30px #A12718;
+  padding: 10px;
+}
+
+#img4{
+  border: 20px;
+  box-shadow: 30px 30px #9E5050;
+  padding: 10px;
 }
 
 /* Footer Styles */
@@ -316,6 +338,111 @@ footer{
 footer h1{
   color: #FF0000;
   font-size: 30px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+
+nav h1{
+  left: 3%;
+}
+
+  .horizontal{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new_releases_images{
+    flex-direction: column;
+  }
+
+  .new_releases_images img{
+    width: 50%;
+  }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 320px){
+
+  .new_releases_images img{
+    width: 50%;
+  }
+
+  .horizontal img{
+    width: 80%;
+    margin: 5%;
+  }
+
+  nav{
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  nav h1{ 
+    font-size: 12px;
+    margin: 5%;
+  }
+
+  .About{
+    flex-direction: column;
+  }
+
+  .about_content{
+    width: 88%;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_about {
+    display: none;
+}
+
+  #img1{
+    border: 10px ;
+    box-shadow: -10px -10px #A8A4A4;
+    padding: 2px;
+  }
+  
+  #img2{
+    border: 10px;
+    box-shadow: -10px 10px #555555;
+    padding: 2px;
+  }
+  
+  #img3{
+    border: 10px;
+    box-shadow: -10px -10px #A12718;
+    padding: 2px;
+  }
+  
+  #img4{
+    border: 10px;
+    box-shadow: 10px 10px #9E5050;
+    padding: 2px;
+  }
+
+  .tour_info{
+    align-items: unset;
+  }
+
+  .tour_left,
+  .tour_right{
+    font-size: 16px;
+  }
+
+
 }
 
 
