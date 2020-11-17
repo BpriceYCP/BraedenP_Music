@@ -168,7 +168,7 @@ nav h1 span{
 .hero_home{
   width: 100vw;
   height: 530px;
-  background-image: url('../img/hero.png');
+  background-image: url('../img/Hero2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ nav h1 span{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 200vh;
 }
 
 .tour_info{
@@ -340,6 +340,17 @@ footer h1{
   font-size: 30px;
 }
 
+.Contact_me{
+  color: #FF0000;
+  font-size: 30px;
+  left: auto;
+}
+
+.Follow_me{
+  color: #FF0000;
+  font-size: 30px;
+  right: auto;
+}
 /* Media Queries */
 
 @media screen and (max-width: 768px){
@@ -388,7 +399,7 @@ nav h1{
     width: 90%;
   }
 
-  nav h1{ 
+  nav h1{
     font-size: 12px;
     margin: 5%;
   }
@@ -414,19 +425,19 @@ nav h1{
     box-shadow: -10px -10px #A8A4A4;
     padding: 2px;
   }
-  
+
   #img2{
     border: 10px;
     box-shadow: -10px 10px #555555;
     padding: 2px;
   }
-  
+
   #img3{
     border: 10px;
     box-shadow: -10px -10px #A12718;
     padding: 2px;
   }
-  
+
   #img4{
     border: 10px;
     box-shadow: 10px 10px #9E5050;
