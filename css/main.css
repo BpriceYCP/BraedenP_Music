@@ -404,13 +404,13 @@ footer h1{
 .Contact_me{
   color: #FF0000;
   font-size: 30px;
-  left: auto;
+  text-align: left;
 }
 
 .Follow_me{
   color: #FF0000;
   font-size: 30px;
-  right: auto;
+  text-align: right;
 }
 /* Media Queries */
 
