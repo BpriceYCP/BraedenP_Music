@@ -223,6 +223,21 @@ nav h1 span{
   background-repeat: no-repeat;
   margin: 0px;
 }
+
+.fan_favorite_images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.fan_favorite_images img{
+  width: 65%;
+  margin: 2%;
+}
+
+
 /*setting up ABOUT page*/
 
 .About{
@@ -289,6 +304,7 @@ nav h1 span{
 }
 
 .horizontal img{
+  width: 400px;
   margin: 2%;
 }
 
@@ -327,8 +343,12 @@ nav h1 span{
 
 .container {
   position: relative;
+  display: flex;
   width: 50%;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .image {
   display: block;
