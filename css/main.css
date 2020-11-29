@@ -454,6 +454,19 @@ nav h1{
     width: 50%;
   }
 
+  .leftfooterinfo, .rightfooterinfo {
+    width: 35%;
+    height: auto;
+    background-color: #403B3B;
+    border-radius: 20px;
+    color: #000;
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 }
@@ -472,13 +485,13 @@ nav h1{
     margin: 5%;
   }
 
-  nav{
+  nav {
     flex-direction: column;
     height: 90px;
     justify-content: center;
     align-items: center;
-    width: 90%;
-  }
+    width: 87%;
+}
 
   nav h1{
     font-size: 12px;
@@ -533,6 +546,36 @@ nav h1{
   .tour_right{
     font-size: 16px;
   }
+
+  footer {
+    width: 100vw;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0D0D0D;
+}
+
+.leftfooterinfo, .rightfooterinfo {
+  width: 85%;
+  height: auto;
+  background-color: #403B3B;
+  border-radius: 20px;
+  color: #000;
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+footer h1 {
+  color: #FF0000;
+  font-size: 30px;
+  margin: 0;
+}
 
 
 }
